@@ -1,1 +1,11 @@
-<p>home works!</p>
+<div class="container" [ngClass]="{ 'dark-theme': isDarkMode }">
+      <div class="controls">
+          <input type="file" (change)="onFileChange($event)" accept=".docx" />
+              <button (click)="toggleTheme()">
+                    Switch to {{ isDarkMode ? 'Day' : 'Night' }} Mode
+                        </button>
+                          </div>
+
+                            <div class="docx-content" [innerHTML]="docxHtml"></div>
+                            </div>
+                            

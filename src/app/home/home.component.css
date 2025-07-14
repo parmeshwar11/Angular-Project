@@ -1,0 +1,32 @@
+.container {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.controls {
+  margin-bottom: 16px;
+}
+
+button {
+  margin-left: 12px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.docx-content {
+  border: 1px solid #ccc;
+  padding: 16px;
+  background: #fff;
+  color: #000;
+}
+
+.dark-theme .docx-content {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}adde
+
+.dark-theme {
+  background: #121212;
+  color: #e0e0e0;
+}
